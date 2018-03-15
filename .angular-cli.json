@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "project"
+    "name": "home-money"
   },
   "apps": [
     {
@@ -17,10 +17,11 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
+      "prefix": "na",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
+        "styles.css",
+        "./assets/vendor.css",
+        "./assets/theme.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
